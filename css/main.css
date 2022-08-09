@@ -77,6 +77,9 @@ img {
     color: #fff;
     text-transform: uppercase;
 }
+.wrapper-link:hover {
+    color: #DD783F;
+}
 /* HEADER BOTTOM */
 .header-bottom {
     text-align: center;
@@ -151,6 +154,10 @@ img {
     width: 460px;
     margin-right: 20px;
     padding: 157px 20px 20px 20px;
+    transition-duration: 1s;
+}
+.wrapper-list-item:hover {
+    opacity: 0.7;
 }
 .wrapper-list-item-2 {
     background-image: url(../images/ball.jpg);
@@ -159,6 +166,10 @@ img {
     width: 460px;
     margin-right: 20px;
     padding: 157px 20px 20px 20px;
+    transition-duration: 1s;
+}
+.wrapper-list-item-2:hover {
+    opacity: 0.7;
 }
 .wrapper-item-title {
     font-size: 27px;
